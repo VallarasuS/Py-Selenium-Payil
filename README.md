@@ -5,13 +5,6 @@
 |         | name = "Sam"  |                                    |
 |         | year = 2025   |                                    |
 |         | pi = 3.14     |                                    |
-| input   |               |                                    |
+| input   |               | [Print Input](d001_print_input.py) |
 |         | get name      |                                    |
 |         | print name    |                                    |
-|         |               |                                    |
-|         |               |                                    |
-|         |               |                                    |
-|         |               |                                    |
-|         |               |                                    |
-|         |               |                                    |
-|         |               |                                    |
