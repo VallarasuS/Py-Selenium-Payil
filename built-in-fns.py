@@ -1,9 +1,8 @@
-print("Print is a pre-defined function")
-
-# type is a built-in function
-name = "John"
-print(type("John"))
+# print - pre-defined function
+# Returns Nothing (None) | -> None
+print("Hello World")
 
 # Input prints to console and waits for user input
+# Returns string | -> str
 name = input("Enter your  name")
 print(name)
