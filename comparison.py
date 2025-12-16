@@ -30,6 +30,15 @@
 # allow entry: id-card, temporary id card
 # deny entry: no id-card, no temporary id card
 
+
+def print_five_times():
+    print("Hello World")
+    print("Hello World")
+    print("Hello World")
+    print("Hello World")
+    print("Hello World")
+
+
 has_id_card = False
 has_temporary_id_card = True
 
@@ -47,6 +56,9 @@ child_age = 4
 
 half_ticket = child_age < max_age or child_height <= max_height
 print("half_ticket: ", half_ticket)
+
+print_five_times()
+print_five_times()
 
 # Comparison Op, Home Work
 # 1. Given age check if user can vote. min age 18
