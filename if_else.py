@@ -31,3 +31,11 @@ else:
     print("Invalid Value")
 
 print("End of Program")
+
+
+# Home work
+# 1. Compute Indian income tax rate for given annual salary
+#     a. [4-8 -> 5%, 8-12 -> 10%, 12-16 -> 15%, 16-20 -> 20%, 20-24 -> 25%, above 24 -> 30%]
+# 2. Given student score in math, grade score. [More than 90 -> A, more than 80 -> B, more than 90 -> C]
+# 3. Given a metal name (gold, silver, platinum), get its price
+# 4. Given a number, if odd double it (2x), if even return same. 3 -> 6, 4 -> 4
