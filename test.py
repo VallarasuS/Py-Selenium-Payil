@@ -17,3 +17,20 @@
 # x = [i * i for i in numbers if i % 2 == 0]
 
 # print(x)
+
+# x = 2
+# if x == 2:
+#     y = "even"
+# print(y)
+
+
+x = 2
+y = 3
+
+
+def add(x, y):
+    return x + y
+
+
+x = add(10, 20)
+print(x)
