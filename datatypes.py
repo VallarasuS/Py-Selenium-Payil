@@ -19,14 +19,27 @@ name = "John"
 print(name)
 print(type(name))
 
-can_vote = True
-print(can_vote)
-print(type(can_vote))
+can_vote_bool = 0
+print(can_vote_bool)
+print(type(can_vote_bool))
 
-age = input("Enter your age: 30")
-age = int(age)
+can_vote_bool = "Hello Boolean"
+print(can_vote_bool)
+print(type(can_vote_bool))
+
+# age = input("Enter your age:")
+# age = bool(age)
+
 print(age)
 print(type(age))
 
 # name, age, height, weight
 # qualification, employer, license holder?
+
+user_input = input("Enter a value:")  # -> Returns a string
+print("User Input > ", user_input)
+print(type(user_input))
+
+converted_value = bool("")
+print("Type Converted >", converted_value)
+print(type(converted_value))
