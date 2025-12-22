@@ -45,3 +45,26 @@ def remove_white_space(data):
 remove_white_space("  Hello   World  ")
 remove_white_space("   This is my string program    ")
 remove_white_space("John     ")
+
+
+def find_id(id):
+    all_cards = "aadhaar voter pan passport ration_card"  # -> Large Source String
+    return all_cards.find(id)
+
+
+result = find_id("aadhaar")  # Small Search String
+print(result)
+
+print(dir(str))
+
+element_text = " John  ".strip()
+
+if not element_text:
+    print("Empty Input Data")
+
+
+print("Proceed")
+
+"".upper()
+
+"Hello".lower()
