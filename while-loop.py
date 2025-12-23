@@ -6,9 +6,9 @@ print("Start of program")
 
 # 1, 2, 3, .... 10
 
-start = 1
-end = 10
-step = 1
+# start = 1
+# end = 10
+# step = 1
 
 # while start < end:
 #     result = start + step
@@ -55,13 +55,13 @@ step = 1
 #     result = i * 3
 #     print(i, "x 3 =", result)
 
-i = 0
+# i = 0
 
-while i < 16:
-    i = i + 1
-    result = i * 5
-    print(i, " x 5 = ", result)
+# while i < 16:
+#     i = i + 1
+#     result = i * 5
+#     print(i, " x 5 = ", result)
 
-print("End of Program")
+# print("End of Program")
 
 # 2x, 3x, 4x, 5x, 6x

@@ -68,3 +68,8 @@ print("Proceed")
 "".upper()
 
 "Hello".lower()
+
+source = "Mark,24,CSC"
+out = source.split(",")
+
+print(out)
