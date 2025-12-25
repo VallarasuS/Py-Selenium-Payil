@@ -3,6 +3,8 @@ print("Start of program")
 # while True:
 #     print("Hello")
 
+while False:
+    print("Hello")
 
 # 1, 2, 3, .... 10
 
@@ -65,3 +67,23 @@ print("Start of program")
 # print("End of Program")
 
 # 2x, 3x, 4x, 5x, 6x
+
+
+num = input("Enter a number ")
+num = int(num)
+print(num)
+
+i = 1
+
+while i <= num:
+    print("Hello")
+    i = i + 1
+
+print("End of Program")
+
+
+# for -> iterated based on no, of times
+# while -> iterate based on condition
+
+# page - loading....
+# wait... loaded, loading completed
