@@ -26,15 +26,11 @@ mul(5, 3)
 
 def sum(a, b):
     c = a + b
-    print("SUM >> ", c)
     return c
+    print("SUM >> ", c)
 
 
 a = 10
 b = 20
 c = sum(a, b)
-
-print(a, b)
-print("Value Returned :", c)
-
-# Given age check if user can vote. min age 18
+print(c)
