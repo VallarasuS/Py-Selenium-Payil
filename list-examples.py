@@ -13,3 +13,11 @@ hello_list = list("Hello")
 print(hello_list)
 
 print(type(hello_list))
+
+print(dir(list))
+
+numbers = []
+for i in range(1, 6, 1):
+    numbers.insert(0, 1)
+
+print(numbers)
