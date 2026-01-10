@@ -58,3 +58,14 @@ print("fever", has_fever)
 
 can_vaccinate = not has_fever
 print("Vaccinate", can_vaccinate)
+
+language_score = 50
+
+
+def is_qualified(score):
+    return score < 34
+
+
+qualified = is_qualified(language_score)
+
+print("Qualified ?", qualified)
