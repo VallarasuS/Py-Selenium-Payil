@@ -26,3 +26,13 @@ for i in numbers:
 # max - top value
 # len - size of list
 # loop - iterate over list
+
+print("----")
+
+marks = [35, 80, 75, 65, 90]
+total = 0
+
+for mark in marks:
+    total = total + mark
+
+print(total)
