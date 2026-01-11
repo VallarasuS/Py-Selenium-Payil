@@ -15,9 +15,7 @@ def fizzBuzz(number):
 
 
 def validate(expected, actual):
-    assert actual == expected, "FizzBuzz -> expected {0} got {1}".format(
-        expected, actual
-    )
+    assert actual == expected, f"FizzBuzz -> expected {expected} got {actual}"
 
 
 result = fizzBuzz(9)

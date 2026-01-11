@@ -18,9 +18,7 @@ y = 3
 
 
 def validate(op, expected, actual):
-    assert actual == expected, "{0} -> expected {1} got {2}".format(
-        op, expected, actual
-    )
+    assert actual == expected, f"{op} -> expected {expected} got {actual}"
 
 
 result = calculate("add", x, y)

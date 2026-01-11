@@ -14,7 +14,7 @@ def get_week_day(num):
 
 
 def validate(expected, actual):
-    assert actual == expected, "Day -> expected {1} got {2}".format(expected, actual)
+    assert actual == expected, f"Day -> expected {expected} got {actual}"
 
 
 result = get_week_day(1)

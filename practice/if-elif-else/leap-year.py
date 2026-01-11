@@ -12,9 +12,7 @@ def is_leap_year(year):
 
 
 def validate(expected, actual):
-    assert actual == expected, "Leap Year -> expected {0} got {1}".format(
-        expected, actual
-    )
+    assert actual == expected, f"Leap Year -> expected {expected} got {actual}"
 
 
 result = is_leap_year(2016)

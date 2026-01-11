@@ -15,7 +15,7 @@ def categorize(age):
 
 
 def validate(expected, actual):
-    assert actual == expected, "Number -> expected {0} got {1}".format(expected, actual)
+    assert actual == expected, f"Number -> expected {expected} got {actual}"
 
 
 result = categorize(0)
