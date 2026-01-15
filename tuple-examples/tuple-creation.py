@@ -27,3 +27,5 @@ print(employee)
 
 new_employee = increment(employee, 1000)
 print(new_employee)
+
+print(dir(tuple))
