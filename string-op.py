@@ -1,4 +1,4 @@
-print(dir(str))
+# print(dir(str))
 
 data = "   Hello World   "
 print("Before: ", data)
@@ -73,3 +73,24 @@ source = "Mark,24,CSC"
 out = source.split(",")
 
 print(out)
+
+# format
+
+name = "John"
+age = 30
+
+greeting_template = "Hello {0}, Your age is {1}"
+greeting = greeting_template.format(name, age)
+print(greeting)
+
+message = "Hello"
+for i in message:
+    print(i)
+
+# Reverse the string
+
+reversed = ""
+for i in message:
+    reversed = i + reversed
+
+print(reversed)
