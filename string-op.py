@@ -79,9 +79,8 @@ print(out)
 name = "John"
 age = 30
 
-greeting_template = "Hello {0}, Your age is {1}"
-greeting = greeting_template.format(name, age)
-print(greeting)
+greeting_template = "Hello {0}, Your age is {1}".format(name, age)
+print(greeting_template)
 
 message = "Hello"
 for i in message:
