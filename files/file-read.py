@@ -5,7 +5,8 @@
 # w -> write
 # a -> append
 
-# open function -> path, mode
+# function - open(path, mode) -> opens file
+# function - close() -> closes the file
 
 # Read - Read All Lines as a string
 # ---------------------------------
