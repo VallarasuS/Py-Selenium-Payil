@@ -39,3 +39,11 @@ fq.close()
 
 print(type(list_quotes))
 print(len(list_quotes))
+
+source = open(r"C:\Users\Desktop\quotes.txt", "r")
+contents = source.read()
+source.close()
+
+copy = open(r"C:\Users\Desktop\copy-quotes.txt", "w")
+copy.write(contents)
+copy.close()
