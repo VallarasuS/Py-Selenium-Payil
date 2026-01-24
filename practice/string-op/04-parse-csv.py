@@ -2,7 +2,17 @@
 
 
 def csv_incr_year_and_age(input_data):
-    pass
+
+    tokens = input_data.split(",")  # ["John", "30", "2026"]
+    name, age, year = tokens
+    age = int(age) + 1
+    year = int(year) + 1
+
+    res = ",".join([name, str(age), str(year)])
+    res = f"{name},{age},{year}"
+    print(res)
+
+    return res
 
 
 # ----------------------------------------------#
