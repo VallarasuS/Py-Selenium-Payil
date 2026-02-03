@@ -12,12 +12,11 @@
 
 data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave, Chennai, 34, 60, 50 \n Steve, Bangalore, 34, 60, 50"
 
-# string
-# - split \n
-#   ignore first line
-# - split by , -> 5 tokens or words
-# process numerics, POS 2,3,4 []
+# process input string
+# - split into lines
+# - skip first line
+# - split lines into works
+# - process only numbers, skip strings
 # calculate sum, average, top
 # add it back to the line
-# using join / concatenation
 # combine all lines
