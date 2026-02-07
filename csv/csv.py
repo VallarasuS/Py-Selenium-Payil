@@ -10,10 +10,6 @@
 # Dave, Chennai, 34, 60, 50
 # Steve, Bangalore, 34, 60, 50
 
-from parse import split_into_lines, split_into_chars
-from calc import add
-
-data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave, Chennai, 34, 60, 50 \n Steve, Bangalore, 34, 60, 50"
 
 # process input string
 # - split into lines
@@ -24,14 +20,15 @@ data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave
 # add it back to the line
 # combine all lines
 
-lines = split_into_lines(data)
-print(lines)
+# DRY - Do not repeat yourself
+# Single Responsibility - do one job, do it well
+data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave, Chennai, 34, 60, 50 \n Steve, Bangalore, 34, 60, 50"
 
-for line in lines:
-    chars = split_into_chars(line, 2)
+from parse import split
+from calc import stats
 
-    total = add(chars)
-    print(total)
-
-    result = f"{line},{total}"
-    print(result)
+lines = split(data, "\n", 1)
+for line in lines:  # John, Chennai, 40, 60, 50
+    words = split(line, ",", 2)  # ["John", "Chennai", "40", "60", "50"]
+    total, average, topScore = stats(words)  # 150, 50, 60
+    result = f"{line},{total},{average},{topScore}"
