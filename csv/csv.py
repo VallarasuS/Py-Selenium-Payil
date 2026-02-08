@@ -22,13 +22,16 @@
 
 # DRY - Do not repeat yourself
 # Single Responsibility - do one job, do it well
-data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave, Chennai, 34, 60, 50 \n Steve, Bangalore, 34, 60, 50"
+# data = "Name, City, Math, Science, Language \n John, Chennai, 40, 60, 50 \n Dave, Chennai, 34, 60, 50 \n Steve, Bangalore, 34, 60, 50"
 
-from parse import split
-from calc import stats
+# from parse import split
+# from calc import stats
 
-lines = split(data, "\n", 1)
-for line in lines:  # John, Chennai, 40, 60, 50
-    words = split(line, ",", 2)  # ["John", "Chennai", "40", "60", "50"]
-    total, average, topScore = stats(words)  # 150, 50, 60
-    result = f"{line},{total},{average},{topScore}"
+# lines = split(data, "\n", 1)
+# for line in lines:  # John, Chennai, 40, 60, 50
+#     words = split(line, ",", 2)  # ["John", "Chennai", "40", "60", "50"]
+#     total, average, topScore = stats(words)  # 150, 50, 60
+#     result = f"{line},{total},{average},{topScore}"
+
+numbers = list(range(1, 11, 1))
+print(numbers)
