@@ -49,7 +49,7 @@ for i in range(0, size, 1):
     x = numbers[i]
     print(x)
 
-numbers = [1, 2, 3, [4, 5, 6]]
+numbers = [1, 2, "Three", [3, 5, 6]]
 
 x = numbers[3]
 y = x[2]
@@ -57,3 +57,8 @@ y = x[2]
 print(numbers[3][2])
 
 scores_data = [["John", 30, 40, 50], ["Dave", 50, 60, 70], ["Mike", 20, 30, 40]]
+
+
+message = "Hello World"
+list_char = list(message)
+print(list_char)
