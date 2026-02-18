@@ -68,3 +68,12 @@ class NetworkStorage(Storage):
 
 file = FileStorage()
 nw = NetworkStorage()
+
+# Interview Prep
+
+# - OOPS
+# Inheritance
+# Method overload
+# Method override
+# Abstraction
+# Encapsulation
