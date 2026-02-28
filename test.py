@@ -34,3 +34,17 @@ def add(x, y):
 
 x = add(10, 20)
 print(x)
+
+
+try:
+    x = int(input("enter number"))
+    y = int(input("enter another number"))
+    z = x / y
+except ZeroDivisionError:
+    print("Cant divide by zero")
+except ValueError:
+    print("Invalid Input ")
+except Exception:
+    print("Error happened try again, restart")
+finally:
+    print("Clean up resource")

@@ -18,3 +18,6 @@
 - **Delete contact**
 	- Can delete by exact name or by number shown in list
     - remove from list/dict, index handling
+-- ** Save/Load from file storage **
+	- Read contacts from file
+	- Write all modifications to file

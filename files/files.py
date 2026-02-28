@@ -21,10 +21,15 @@
 
 # file.close()
 
+# try:
+#     pass
+file = open(r"C:\Users\Valla\Desktop\files\example.txt", "r")
 
-# file = open(r"C:\Users\Valla\Desktop\files\example.txt", "r")
+lines = file.readlines()
+print(lines)
 
-# lines = file.readlines()
-# print(lines)
-
-# file.close()
+file.close()
+# except ValueError:
+#     print("")
+# finally:
+#     # file.close()
