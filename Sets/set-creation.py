@@ -1,55 +1,61 @@
-# teamA = {"John", "Dave", "Mike"}
-# teamB = set()
+teamA = {"John", "Dave", "Mike"}
+teamB = set()
 
-# teamB.add("Bob")
-# teamB.update(["Charlie", "Robert", "John"])
-# # print(len(teamA))
+teamB.add("Bob")
+teamB.update(("Charlie", "Robert", "John"))
+teamB.add(("Charlie", "Robert", "John"))
+# print(len(teamA))
+print(teamB)
 
-# teamB.difference(teamA)
+[1, 2, 3, [1, 2], (3, 4)]
 
-# x = 6 + 4
+# print(teamB.difference(teamA))
+# print(teamA)
+# print(teamB)
 
-# # union
-# all_members = teamA | teamB
-# print(all_members)
+# # # x = 6 + 4
 
-# # intersection
-# common_a_b = teamA & teamB
-# print(common_a_b)
+# # # # union
+# # # all_members = teamA | teamB
+# # # print(all_members)
 
-# # difference
-# only_team_a = teamA - teamB
-# print(only_team_a)
+# # # # intersection
+# # # common_a_b = teamA & teamB
+# # # print(common_a_b)
 
-# # symmetric difference
-# contributes_100 = teamA ^ teamB
-# print(contributes_100)
+# # # # difference
+# # # only_team_a = teamA - teamB
+# # # print(only_team_a)
 
-
-x = set("Hello")
-print(x)
-
-x.add(2)
-print(x)
-
-# remove duplicates
-numbers = [1, 2, 3, 3, 4, 1]
-unique = list(set(numbers))
-print(numbers)
-print(unique)
-
-set_nums = {1, 2, 3, 4, 5}
-nums = {1, 2, 3}
-
-# sub, super set check
-print(nums.issubset(set_nums))
-print(set_nums.issuperset(nums))
+# # # # symmetric difference
+# # # contributes_100 = teamA ^ teamB
+# # # print(contributes_100)
 
 
-# days = {"mon"..."sat" ,"sun"}
-# work_week = { "mon" ... "fri" }
+# # x = set("Hello")
+# # print(x)
 
-numbers = [1, 2, 3, 4]
-# numbers.sort()
-ordered = sorted(numbers)
-print(ordered)
+# # x.add(2)
+# # print(x)
+
+# # # remove duplicates
+# # numbers = [1, 2, 3, 3, 4, 1]
+# # unique = list(set(numbers))
+# # print(numbers)
+# # print(unique)
+
+# # set_nums = {1, 2, 3, 4, 5}
+# # nums = {1, 2, 3}
+
+# # # sub, super set check
+# # print(nums.issubset(set_nums))
+# # print(set_nums.issuperset(nums))
+
+
+# # # days = {"mon"..."sat" ,"sun"}
+# # # work_week = { "mon" ... "fri" }
+
+# # numbers = [1, 2, 3, 4]
+# # # numbers.sort()
+# # ordered = sorted(numbers)
+# # print(ordered)
