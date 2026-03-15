@@ -60,6 +60,19 @@ file.close()
 
 # ---------------------------------------
 
+file = open(r"C:\Users\Valla\Desktop\py-file\hello.txt", "r")
+
+reading = True
+
+while reading:
+    content = file.readline()
+    reading = len(content) > 0
+    print(content)
+
+file.close()
+
+# ---------------------------------------
+
 try:
     file = open(r"C:\Users\Valla\Desktop\py-file\hello.txt", "r")
 
