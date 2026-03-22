@@ -5,11 +5,8 @@ class Student:
         self.id = id
 
 
-s1 = Student("John", "Smith", "100")
+s1 = Student("John", "Smith", 100)
 print(s1.name)
 
-
-# class HomePage:
-
-#     def __init__(self, url):
-#         self.url = url
+s3 = Student("Dave", "Jones", 102)
+print(s3.name)
